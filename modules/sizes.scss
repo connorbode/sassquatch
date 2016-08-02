@@ -32,3 +32,27 @@ $size-min-lg: 1200px;
     @content;
   }
 }
+
+.center-xs {
+  @include media-xs {
+    text-align: center;
+  }
+}
+
+.center-sm {
+  @include media-sm {
+    text-align: center;
+  }
+}
+
+.center-md {
+  @include media-md {
+    text-align: center;
+  }
+}
+
+.center-lg {
+  @include media-lg {
+    text-align: center;
+  }
+}
