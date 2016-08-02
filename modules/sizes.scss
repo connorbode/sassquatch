@@ -16,13 +16,13 @@ $size-min-lg: 1200px;
 }
 
 @mixin media-sm {
-  @media (min-width: $size-min-sm and max-width: $size-max-sm) {
+  @media (min-width: $size-min-sm) and (max-width: $size-max-sm) {
     @content;
   }
 }
 
 @mixin media-md {
-  @media (min-width: $size-min-md and max-width: $size-max-md) {
+  @media (min-width: $size-min-md) and (max-width: $size-max-md) {
     @content;
   }
 }
